@@ -26,7 +26,7 @@ Here's an example of embedding SVG within a web page. As in the example, browser
 </html>
 ```
 
-One critical aspect of the `<svg>` element is the coordinate system. In SVG, the point (0,0) is in the _upper_ right corner. Increasing y values move the points down the page. This direction is opposite that of traditional mathematical graphs and charts. D3.js can account for it automatically in its scales, but it's worth keeping in mind when you're trying to debug a D3.js graph.
+One critical aspect of the `<svg>` element is the coordinate system. In SVG, the point (0,0) is in the _upper_ left corner. Increasing y values move the points down the page. This direction is opposite that of traditional mathematical graphs and charts. D3.js can account for it automatically in its scales, but it's worth keeping in mind when you're trying to debug a D3.js graph.
 
 ### SVG Primitive Elements
 
